@@ -1,26 +1,25 @@
 {
+    "workbench.startupEditor": "newUntitledFile",
     "workbench.colorTheme": "Min Dark",
     "workbench.iconTheme": "symbols",
-    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
     "editor.lineHeight": 1.5,
-    "workbench.startupEditor": "none",
     "editor.renderLineHighlight": "gutter",
     "editor.fontLigatures": true,
     "workbench.editor.labelFormat": "short",
     "explorer.compactFolders": false,
     "editor.semanticHighlighting.enabled": false,
     "breadcrumbs.enabled": false,
-    "workbench.activityBar.location": "hidden",
     "editor.minimap.enabled": false,
-    "editor.scrollbar.vertical": "hidden",
+    // "editor.scrollbar.vertical": "hidden",
     "editor.scrollbar.horizontal": "hidden",
     "workbench.statusBar.visible": false,
     "apc.stylesheet": {
-        ".title-label h2": "display: none",
+        ".title-label": "display: none !important",
         ".editor-actions": "display: none"
     },
     "apc.listRow": {
-        "height": 24
+        "height": 25
     },
     "editor.wordWrap": "on",
     "editor.tabSize": 2,
@@ -34,8 +33,12 @@
     "terminal.integrated.fontFamily": "monospace",
     "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.activityBar.location": "hidden",
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "package.json": "eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, package-lock.*, bun.lock*, yarn.lock, drizzle.config*, biome*, .gitignore",
+        "tailwind.config*": "tailwind.config*, postcss.config*",
+        ".env.local": ".env*",
+        ".env": ".env*"
+    }
 }
