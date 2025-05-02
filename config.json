@@ -40,6 +40,8 @@
     "workbench.sideBar.location": "right",
 },
 
+
+
 {
   "editor.formatOnSave": true,
   "[typescript]": {
