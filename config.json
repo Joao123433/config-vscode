@@ -23,10 +23,6 @@
     },
     "editor.wordWrap": "on",
     "editor.tabSize": 2,
-    "[typescript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "liveServer.settings.donotShowInfoMsg": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "terminal.integrated.env.linux": {},
     "symbols.hidesExplorerArrows": false,
@@ -36,11 +32,12 @@
     "workbench.activityBar.location": "hidden",
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.patterns": {
-        "package.json": "eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, package-lock.*, bun.lock*, yarn.lock, drizzle.config*, biome*, .gitignore",
+        "package.json": "eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, package-lock.*, bun.lock*, yarn.lock, drizzle.config*, biome*, .gitignore, vercel.json",
         "tailwind.config*": "tailwind.config*, postcss.config*",
         ".env.local": ".env*",
         ".env": ".env*"
-    }
+    },
+    "workbench.sideBar.location": "right",
 },
 
 {
